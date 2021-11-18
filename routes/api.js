@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const Workout = require("../models/workout.js");
 
-    //create workout post
 router.post("/api/workouts", ( req, res) => {
   Workout.create()
     .then(workoutData => {
@@ -46,6 +45,5 @@ router.get("/api/workouts/range", (req, res) => {
             res.status(400).json(err);
         });
 });
-
 
 module.exports = router;
