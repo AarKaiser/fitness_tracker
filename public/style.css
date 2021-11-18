@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: black;
   color: #ffffff;
   padding: 24px;
   line-height: 3;
@@ -41,7 +41,8 @@ nav a {
 
 nav a:hover {
   background-color: #ffffff;
-  color: #5793fd;
+  border-radius: 1px;
+  color: grey;
 }
 
 header {
@@ -430,6 +431,21 @@ form > button {
 .cardio-form,
 .resistance-form {
   padding: 10px;
+}
+
+#span1 {
+  color: #21B945;
+}
+
+#span2 {
+  color: #2185D0;
+}
+
+h1 {
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -1px 0 #2185D0, 0 1px #21B945, 1px 0 #2185D0, 0 -1px #21B945;
+
+  font-family: sans; color: black;
 }
 
 @keyframes toast {
