@@ -39,8 +39,8 @@ const workout = new Schema(
           type: Number,
           trim: true,
           required: "What was the distance of your run?",
-        }
-      }
+        },
+      },
     ],
 
     day: {
