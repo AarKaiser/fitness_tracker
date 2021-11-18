@@ -8,17 +8,19 @@ router.post("/api/workouts", ( req, res) => {
     })
     .catch(err => {
       res.status(400).json(err);
+      console.log("router.post failed")
     });
 });
 
 router.get("/api/workouts", (req, res) => {
   Workout.find({})
-    // .sort({ date: -1 })
+    .sort({ date: -1 })
     .then(workoutData => {
       res.json(workoutData);
     })
     .catch(err => {
       res.status(400).json(err);
+      console.log("router.get failed")
     });
 });
 
@@ -32,6 +34,7 @@ router.put("/api/workouts/:id", (req, res) => {
     })
     .catch(err => {
       res.status(400).json(err);
+      console.log("router.put failed")
     });
 });
 
@@ -43,6 +46,7 @@ router.get("/api/workouts/range", (req, res) => {
         })
         .catch(err => {
             res.status(400).json(err);
+            console.log("router.get range failed")
         });
 });
 
