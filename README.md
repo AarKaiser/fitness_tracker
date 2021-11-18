@@ -60,7 +60,7 @@ This application uses the following technologies: HTML, CSS, JavaScript, Bootstr
 Github: https://www.github.com/aarkaiser
 Email: dev@aarkaiser.com.
 
-Please feel free to contact me with further questions via email, which is my prefered method.
+Please feel free to contact me with further questions via email, which is my preferred method.
 
 ## Screenshot
 
